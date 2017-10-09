@@ -195,6 +195,7 @@ module Travis
 
         def export
           apply :env
+          apply :disable_brew_update
         end
 
         def prepare
